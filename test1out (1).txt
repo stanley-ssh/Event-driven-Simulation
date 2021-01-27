@@ -1,0 +1,22 @@
+Simulation begins...
+Time     1: Patient   1 arrives in ED. Assessment nurse is free; (patient assessment begins).
+Time     1: Patient   1 begins assessment of length 22.
+Time    23: Patient   1 completes assessment, assigned priority of 5, scheduled for blood work.
+Time    23: Patient   1 begins blood Work.
+Time    38: Patient   1 completes blood work, scheduled for X-ray.
+Time    38: Patient   1 begins X-Ray.
+Time    63: Patient   1 completes X-Ray, scheduled for treatment.
+Time    63: Patient   1 starts treatment of length 39.
+Time   102: Patient   1 discharged at time 102
+
+...Simulation complete.  Final Summary:
+
+               Total       Service Time          Wait Time
+  Station     patients    Total   Average      Total   Average
+----------------------------------------------------------------
+Assessment       1          22        22         0         0
+Blood Work       1          15        15         0         0
+     X-ray       1          25        25         0         0
+ Treatment       1          39        39         0         0
+
+End of processing.
